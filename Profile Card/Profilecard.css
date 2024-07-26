@@ -1,0 +1,108 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.profile-card {
+    display: flex;
+    height: 70%;
+    width: 22%;
+    background-color: rgb(27, 27, 27);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pic-container {
+    height: 25%;
+    width: 100%;
+
+    position: absolute;
+}
+
+.pic {
+    background-color: white;
+    height: 60%;
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-man-avatar-isolated-png-image_9935818.png)
+}
+.Name{
+    background-color: antiquewhite;
+    height: 50px;
+    width: 100%;
+}
+.SocialMedia{
+    position: absolute;
+
+    height:50% ;
+    width:100%;
+margin-top: 230px;
+display: flex;
+flex-direction: column;
+align-content: space-around;
+
+}
+.info{
+    
+    
+    display: flex;
+    padding-left: 100px;
+    height: 40px;
+    width: 100%;
+    margin-top: 35%;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    
+}
+.country{
+    
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    top: 30%;
+    text-align: center;
+    color: yellow;
+
+}
+.profession{
+    
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    color:white
+}
+
+/* Apply a common property to all children of .SocialMedia */
+.SocialMedia > div {
+    
+    /* Common properties here */
+    width: 80%;
+    height: 18%;
+    margin-top: 10px;
+    margin-left: 35px;
+    border-radius: 15px;
+    align-items: center;
+    background-color:rgb(18, 18, 18);
+    box-shadow: 2px 2px 8px rgba(18,18,18 ,1);
+    color: white;
+    text-align: center;
+    
+    /* Add more common properties as needed */
+}
